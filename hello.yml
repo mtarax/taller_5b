@@ -1,0 +1,7 @@
+---
+- name: Despliegue de hola mundo
+  hosts: all
+  tasks:
+    - name: Mostrar mensaje de hola mundo
+      ansible.builtin.debug:
+        msg: "¡Hola, mundo!"
